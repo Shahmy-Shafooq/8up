@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8UP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav><a href="/">8UP</a></nav>
+    {% block content %}
+    <h1>Welcome to 8UP</h1>
+    {% endblock %}
+</body>
+</html>
